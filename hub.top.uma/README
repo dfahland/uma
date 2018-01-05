@@ -1,0 +1,68 @@
+
+                              _   _ __  __    _    
+                             | | | |  \/  |  / \   
+                             | | | | |\/| | / _ \  
+                             | |_| | |  | |/ ___ \ 
+                              \___/|_|  |_/_/   \_\
+                          https://github.com/dfahland/uma
+
+
+PURPOSE
+    UMA (an Unfolding-based Model Analyzer) has been implemented for the
+    validation of state-space construction techniques for place/transition
+    net state spaces and scenario-based specifications. Its particular
+    strengths include
+    
+     * a compact representation of a system's state-space based on McMillan's
+       technique of finite complete prefixes of Petri net unfoldings;
+     * applicable to scenario-based models with history-based enabling conditions; 
+     * techniques to transform and change model structures based on their
+       unfoldings.
+
+    UMA is platform independent and runs on all platforms with a Java runtime
+    environment.
+
+
+COPYRIGHT
+    Copyright (c) 2008-2018 Dirk Fahland
+
+
+AUTHORS
+    UMA is written and maintained by Dirk Fahland. See file "AUTHORS" for
+    more information.
+
+
+LICENSE
+    License LGPLv3+: GNU Lesser General Public License version 3 or later
+    <http://www.gnu.org/licenses/>
+
+    UMA is free software: you are free to change and redistribute it.
+    There is NO WARRANTY, to the extent permitted by law.
+
+    See file "LICENSE" for the license of UMA.
+
+    Any different licensing scheme may be negotiated with the author(s).
+
+
+INSTALLATION (to be done)
+    UMA can be easily compiled and installed. See file "INSTALL" for
+    instructions.
+
+    UMA uses some generated code. If you want to make changes to the source
+    code, you might need the following tools to regenerate the code:
+     * ???
+     
+    UMA uses some external libraries to run. The SVN repository sources do
+    not contain these external libraries. UMA's ant file is designed to
+    collect these libraries for you and place them at the right locations.
+    However, if this fails, you may have to obtain and places the following
+    libraries manually:
+    
+    * PNAPI/Java 
+      obtain the latest copy from svn://svn.gna.org/svn/service-tech/trunk,
+      there, run "ant jar" to generate the file ./build/pnapi-java.jar; put
+      this file to <uma-root>/libs-external/pnapi-java.jar
+
+
+DOCUMENTATION
+    The directory "doc" contains a documentation of UMA.
