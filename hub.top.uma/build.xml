@@ -2,7 +2,7 @@
 	
 	<!--
 	
-	     Generic ant build file for Java libraries. AGPL3.0
+	     Generic ant build file for Java libraries. LGPL3.0
 	     Copyright (c) 2010 Dirk Fahland.
 	     
 	     Ant targets:
@@ -107,7 +107,7 @@
 	</target>
 	
 	<!-- build source distribution file of this package -->
-	<target name="dist"
+	<target name="dist-src"
 			description="Create source distribution .zip of ${build.name}.">
 		<!-- include all source files -->
 		<mkdir dir="${dir.distdir}/${src}" />
@@ -148,14 +148,14 @@
 			<fileset dir="${dir.tests}" />
 		</copy>
 
-		<zip destfile="${home}/${package}.zip">
+		<zip destfile="${home}/${package}-src.zip">
 			<zipfileset dir="${dir.distdir}" />
 		</zip>
-		<copy tofile="${home}/${package.nonversion}.zip" file="${home}/${package}.zip" />
+		<copy tofile="${home}/${package.nonversion}-src.zip" file="${home}/${package}-src.zip" />
 	</target>
 	
 	<!-- build binary distribution file of this package -->
-	<target name="dist-bin" depends="jar"
+	<target name="dist" depends="jar"
 			description="Create binary distribution .zip of ${build.name}.">
 		
 		<mkdir dir="${dir.distbindir}/${libs}" />
@@ -168,14 +168,14 @@
 			</fileset>
 		</copy>
 		
-		<zip destfile="${home}/${package}-bin.zip">
+		<zip destfile="${home}/${package}.zip">
 			<zipfileset dir="${dir.distbindir}" />
 		</zip>
-		<copy tofile="${home}/${package.nonversion}-bin.zip" file="${home}/${package}-bin.zip" />
+		<copy tofile="${home}/${package.nonversion}.zip" file="${home}/${package}.zip" />
 	</target>
 	
 	<!-- build jar file and run test cases on the distributable -->
-	<target name="jarcheck" depends="jar"
+	<target name="check-jar" depends="jar"
 			description="Run test cases for the Java Archive of ${build.name}.">
 		<antcall target="check">
 			<param name="compiled.classes" value="${dir.builddir}/${build.target}.jar"/>
@@ -184,7 +184,7 @@
 	</target>
 	
 	<!-- build distributable file and run test cases on the distributable -->
-	<target name="distcheck" depends="dist"
+	<target name="check-dist" depends="dist"
 			description="Create source distribution of the ${build.name} and run extensive tests for that distribution.">
 		<mkdir dir="${dir.distcheckdir}" />
 		<unzip dest="${dir.distcheckdir}" overwrite="true" src="${home}/${package}.zip" />

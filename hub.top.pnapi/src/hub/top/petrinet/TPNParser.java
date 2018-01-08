@@ -1,22 +1,22 @@
-// $ANTLR 3.2 Sep 23, 2009 12:02:23 D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g 2011-12-08 14:01:11
+// $ANTLR 3.2 Sep 23, 2009 12:02:23 D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g 2018-01-08 10:56:44
 
-/*****************************************************************************\
-
- * Copyright (c) 2010. All rights reserved. Dirk Fahland. AGPL3.0
- * 
- * ServiceTechnology.org - Petri Net API/Java
- * 
- * This program and the accompanying materials are made available under
- * the terms of the GNU Affero General Public License Version 3 or later,
- * which accompanies this distribution, and is available at 
- * http://www.gnu.org/licenses/agpl.txt
- * 
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
- * for the specific language governing rights and limitations under the
- * License.
- * 
-\*****************************************************************************/
+/*
+ *   Copyright (C) 2008-2018  Dirk Fahland
+ *   Java Petri Net API 
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU Lesser General Public License as
+ *   published by the Free Software Foundation, either version 3 of the
+ *   License, or (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU Lesser General Public License for more details.
+ *
+ *   You should have received a copy of the GNU Lesser General Public License
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 package hub.top.petrinet;
 
@@ -58,7 +58,7 @@ public class TPNParser extends Parser {
         
 
     public String[] getTokenNames() { return TPNParser.tokenNames; }
-    public String getGrammarFileName() { return "D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g"; }
+    public String getGrammarFileName() { return "D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g"; }
 
 
 
@@ -90,13 +90,13 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "net"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:71:1: net returns [PetriNet resultNet] : places transitions ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:72:1: net returns [PetriNet resultNet] : places transitions ;
     public final PetriNet net() throws RecognitionException {
         PetriNet resultNet = null;
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:71:33: ( places transitions )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:71:35: places transitions
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:72:33: ( places transitions )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:72:35: places transitions
             {
              net = new PetriNet(); 
             pushFollow(FOLLOW_places_in_net64);
@@ -126,7 +126,7 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "node_name"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:77:1: node_name returns [String text] : ( STRING_LITERAL | NUMBER );
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:78:1: node_name returns [String text] : ( STRING_LITERAL | NUMBER );
     public final String node_name() throws RecognitionException {
         String text = null;
 
@@ -134,7 +134,7 @@ public class TPNParser extends Parser {
         Token NUMBER2=null;
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:77:32: ( STRING_LITERAL | NUMBER )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:78:32: ( STRING_LITERAL | NUMBER )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -152,7 +152,7 @@ public class TPNParser extends Parser {
             }
             switch (alt1) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:78:3: STRING_LITERAL
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:79:3: STRING_LITERAL
                     {
                     STRING_LITERAL1=(Token)match(input,STRING_LITERAL,FOLLOW_STRING_LITERAL_in_node_name86); 
                      text = (STRING_LITERAL1!=null?STRING_LITERAL1.getText():null);  
@@ -160,7 +160,7 @@ public class TPNParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:79:3: NUMBER
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:80:3: NUMBER
                     {
                     NUMBER2=(Token)match(input,NUMBER,FOLLOW_NUMBER_in_node_name94); 
                      text = (NUMBER2!=null?NUMBER2.getText():null); 
@@ -182,18 +182,18 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "places"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:84:1: places : place ( place )* ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:85:1: places : place ( place )* ;
     public final void places() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:84:7: ( place ( place )* )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:85:2: place ( place )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:85:7: ( place ( place )* )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:86:2: place ( place )*
             {
             pushFollow(FOLLOW_place_in_places109);
             place();
 
             state._fsp--;
 
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:85:8: ( place )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:86:8: ( place )*
             loop2:
             do {
                 int alt2=2;
@@ -206,7 +206,7 @@ public class TPNParser extends Parser {
 
                 switch (alt2) {
             	case 1 :
-            	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:85:10: place
+            	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:86:10: place
             	    {
             	    pushFollow(FOLLOW_place_in_places113);
             	    place();
@@ -238,15 +238,15 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "place"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:88:1: place : KEY_PLACE name1= node_name ( KEY_INIT NUMBER )? SEMICOLON ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:89:1: place : KEY_PLACE name1= node_name ( KEY_INIT NUMBER )? SEMICOLON ;
     public final void place() throws RecognitionException {
         Token NUMBER3=null;
         String name1 = null;
 
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:88:6: ( KEY_PLACE name1= node_name ( KEY_INIT NUMBER )? SEMICOLON )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:89:2: KEY_PLACE name1= node_name ( KEY_INIT NUMBER )? SEMICOLON
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:89:6: ( KEY_PLACE name1= node_name ( KEY_INIT NUMBER )? SEMICOLON )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:90:2: KEY_PLACE name1= node_name ( KEY_INIT NUMBER )? SEMICOLON
             {
             match(input,KEY_PLACE,FOLLOW_KEY_PLACE_in_place125); 
             pushFollow(FOLLOW_node_name_in_place129);
@@ -257,7 +257,7 @@ public class TPNParser extends Parser {
 
             	  net.addPlace_unique(stripQuotes(name1));
             	
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:93:2: ( KEY_INIT NUMBER )?
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:94:2: ( KEY_INIT NUMBER )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -266,7 +266,7 @@ public class TPNParser extends Parser {
             }
             switch (alt3) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:94:3: KEY_INIT NUMBER
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:95:3: KEY_INIT NUMBER
                     {
                     match(input,KEY_INIT,FOLLOW_KEY_INIT_in_place139); 
                     NUMBER3=(Token)match(input,NUMBER,FOLLOW_NUMBER_in_place141); 
@@ -296,18 +296,18 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "transitions"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:104:1: transitions : transition ( transition )* ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:105:1: transitions : transition ( transition )* ;
     public final void transitions() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:104:12: ( transition ( transition )* )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:105:3: transition ( transition )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:105:12: ( transition ( transition )* )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:106:3: transition ( transition )*
             {
             pushFollow(FOLLOW_transition_in_transitions169);
             transition();
 
             state._fsp--;
 
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:105:14: ( transition )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:106:14: ( transition )*
             loop4:
             do {
                 int alt4=2;
@@ -320,7 +320,7 @@ public class TPNParser extends Parser {
 
                 switch (alt4) {
             	case 1 :
-            	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:105:16: transition
+            	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:106:16: transition
             	    {
             	    pushFollow(FOLLOW_transition_in_transitions173);
             	    transition();
@@ -352,7 +352,7 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "transition"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:108:1: transition : KEY_TRANSITION name1= node_name ( TILDE name2= node_name )? KEY_IN arcs KEY_OUT arcs SEMICOLON ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:109:1: transition : KEY_TRANSITION name1= node_name ( TILDE name2= node_name )? KEY_IN arcs KEY_OUT arcs SEMICOLON ;
     public final void transition() throws RecognitionException {
         String name1 = null;
 
@@ -360,8 +360,8 @@ public class TPNParser extends Parser {
 
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:108:11: ( KEY_TRANSITION name1= node_name ( TILDE name2= node_name )? KEY_IN arcs KEY_OUT arcs SEMICOLON )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:109:3: KEY_TRANSITION name1= node_name ( TILDE name2= node_name )? KEY_IN arcs KEY_OUT arcs SEMICOLON
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:109:11: ( KEY_TRANSITION name1= node_name ( TILDE name2= node_name )? KEY_IN arcs KEY_OUT arcs SEMICOLON )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:110:3: KEY_TRANSITION name1= node_name ( TILDE name2= node_name )? KEY_IN arcs KEY_OUT arcs SEMICOLON
             {
             match(input,KEY_TRANSITION,FOLLOW_KEY_TRANSITION_in_transition200); 
             pushFollow(FOLLOW_node_name_in_transition204);
@@ -369,7 +369,7 @@ public class TPNParser extends Parser {
 
             state._fsp--;
 
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:109:34: ( TILDE name2= node_name )?
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:110:34: ( TILDE name2= node_name )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -378,7 +378,7 @@ public class TPNParser extends Parser {
             }
             switch (alt5) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:109:36: TILDE name2= node_name
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:110:36: TILDE name2= node_name
                     {
                     match(input,TILDE,FOLLOW_TILDE_in_transition208); 
                     pushFollow(FOLLOW_node_name_in_transition212);
@@ -430,13 +430,13 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "arcs"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:126:1: arcs : ( arc )* ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:127:1: arcs : ( arc )* ;
     public final void arcs() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:126:5: ( ( arc )* )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:127:2: ( arc )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:127:5: ( ( arc )* )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:128:2: ( arc )*
             {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:127:2: ( arc )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:128:2: ( arc )*
             loop6:
             do {
                 int alt6=2;
@@ -449,7 +449,7 @@ public class TPNParser extends Parser {
 
                 switch (alt6) {
             	case 1 :
-            	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:127:4: arc
+            	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:128:4: arc
             	    {
             	    pushFollow(FOLLOW_arc_in_arcs260);
             	    arc();
@@ -481,14 +481,14 @@ public class TPNParser extends Parser {
 
 
     // $ANTLR start "arc"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:130:1: arc : node_name ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:131:1: arc : node_name ;
     public final void arc() throws RecognitionException {
         String node_name4 = null;
 
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:130:4: ( node_name )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:131:3: node_name
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:131:4: ( node_name )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\TPN.g:132:3: node_name
             {
             pushFollow(FOLLOW_node_name_in_arc274);
             node_name4=node_name();

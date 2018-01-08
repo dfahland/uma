@@ -1,22 +1,22 @@
-// $ANTLR 3.2 Sep 23, 2009 12:02:23 D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g 2011-12-08 14:01:10
+// $ANTLR 3.2 Sep 23, 2009 12:02:23 D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g 2018-01-08 10:56:43
 
-/*****************************************************************************\
-
- * Copyright (c) 2010. All rights reserved. Dirk Fahland. AGPL3.0
- * 
- * ServiceTechnology.org - Petri Net API/Java
- * 
- * This program and the accompanying materials are made available under
- * the terms of the GNU Affero General Public License Version 3 or later,
- * which accompanies this distribution, and is available at 
- * http://www.gnu.org/licenses/agpl.txt
- * 
- * Software distributed under the License is distributed on an "AS IS" basis,
- * WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
- * for the specific language governing rights and limitations under the
- * License.
- * 
-\*****************************************************************************/
+/*
+ *   Copyright (C) 2008-2018  Dirk Fahland
+ *   Java Petri Net API 
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU Lesser General Public License as
+ *   published by the Free Software Foundation, either version 3 of the
+ *   License, or (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU Lesser General Public License for more details.
+ *
+ *   You should have received a copy of the GNU Lesser General Public License
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 
 package hub.top.petrinet;
 
@@ -60,7 +60,7 @@ public class LoLAParser extends Parser {
         
 
     public String[] getTokenNames() { return LoLAParser.tokenNames; }
-    public String getGrammarFileName() { return "D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g"; }
+    public String getGrammarFileName() { return "D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g"; }
 
 
 
@@ -87,13 +87,13 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "net"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:66:1: net returns [PetriNet resultNet] : KEY_PLACE places KEY_MARKING marking_list transitions ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:67:1: net returns [PetriNet resultNet] : KEY_PLACE places KEY_MARKING marking_list transitions ;
     public final PetriNet net() throws RecognitionException {
         PetriNet resultNet = null;
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:66:33: ( KEY_PLACE places KEY_MARKING marking_list transitions )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:66:35: KEY_PLACE places KEY_MARKING marking_list transitions
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:67:33: ( KEY_PLACE places KEY_MARKING marking_list transitions )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:67:35: KEY_PLACE places KEY_MARKING marking_list transitions
             {
              net = new PetriNet(); 
             match(input,KEY_PLACE,FOLLOW_KEY_PLACE_in_net64); 
@@ -130,7 +130,7 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "node_name"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:73:1: node_name returns [String text] : ( IDENT | NUMBER );
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:74:1: node_name returns [String text] : ( IDENT | NUMBER );
     public final String node_name() throws RecognitionException {
         String text = null;
 
@@ -138,7 +138,7 @@ public class LoLAParser extends Parser {
         Token NUMBER2=null;
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:73:32: ( IDENT | NUMBER )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:74:32: ( IDENT | NUMBER )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -156,7 +156,7 @@ public class LoLAParser extends Parser {
             }
             switch (alt1) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:74:3: IDENT
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:75:3: IDENT
                     {
                     IDENT1=(Token)match(input,IDENT,FOLLOW_IDENT_in_node_name94); 
                      text = (IDENT1!=null?IDENT1.getText():null);  
@@ -164,7 +164,7 @@ public class LoLAParser extends Parser {
                     }
                     break;
                 case 2 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:75:3: NUMBER
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:76:3: NUMBER
                     {
                     NUMBER2=(Token)match(input,NUMBER,FOLLOW_NUMBER_in_node_name102); 
                      text = (NUMBER2!=null?NUMBER2.getText():null); 
@@ -186,13 +186,13 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "places"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:80:1: places : ( capacity place_list SEMICOLON )+ ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:81:1: places : ( capacity place_list SEMICOLON )+ ;
     public final void places() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:80:7: ( ( capacity place_list SEMICOLON )+ )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:81:2: ( capacity place_list SEMICOLON )+
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:81:7: ( ( capacity place_list SEMICOLON )+ )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:82:2: ( capacity place_list SEMICOLON )+
             {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:81:2: ( capacity place_list SEMICOLON )+
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:82:2: ( capacity place_list SEMICOLON )+
             int cnt2=0;
             loop2:
             do {
@@ -206,7 +206,7 @@ public class LoLAParser extends Parser {
 
                 switch (alt2) {
             	case 1 :
-            	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:82:3: capacity place_list SEMICOLON
+            	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:83:3: capacity place_list SEMICOLON
             	    {
             	    pushFollow(FOLLOW_capacity_in_places121);
             	    capacity();
@@ -249,10 +249,10 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "capacity"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:86:1: capacity : ( | KEY_SAFE COLON | KEY_SAFE NUMBER COLON );
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:87:1: capacity : ( | KEY_SAFE COLON | KEY_SAFE NUMBER COLON );
     public final void capacity() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:86:9: ( | KEY_SAFE COLON | KEY_SAFE NUMBER COLON )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:87:9: ( | KEY_SAFE COLON | KEY_SAFE NUMBER COLON )
             int alt3=3;
             int LA3_0 = input.LA(1);
 
@@ -283,12 +283,12 @@ public class LoLAParser extends Parser {
             }
             switch (alt3) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:88:1: 
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:89:1: 
                     {
                     }
                     break;
                 case 2 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:88:3: KEY_SAFE COLON
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:89:3: KEY_SAFE COLON
                     {
                     match(input,KEY_SAFE,FOLLOW_KEY_SAFE_in_capacity147); 
                     match(input,COLON,FOLLOW_COLON_in_capacity149); 
@@ -297,7 +297,7 @@ public class LoLAParser extends Parser {
                     }
                     break;
                 case 3 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:89:3: KEY_SAFE NUMBER COLON
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:90:3: KEY_SAFE NUMBER COLON
                     {
                     match(input,KEY_SAFE,FOLLOW_KEY_SAFE_in_capacity162); 
                     match(input,NUMBER,FOLLOW_NUMBER_in_capacity164); 
@@ -321,7 +321,7 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "place_list"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:92:1: place_list : name1= node_name ( COMMA name2= node_name )* ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:93:1: place_list : name1= node_name ( COMMA name2= node_name )* ;
     public final void place_list() throws RecognitionException {
         String name1 = null;
 
@@ -329,8 +329,8 @@ public class LoLAParser extends Parser {
 
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:92:11: (name1= node_name ( COMMA name2= node_name )* )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:93:5: name1= node_name ( COMMA name2= node_name )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:93:11: (name1= node_name ( COMMA name2= node_name )* )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:94:5: name1= node_name ( COMMA name2= node_name )*
             {
             pushFollow(FOLLOW_node_name_in_place_list182);
             name1=node_name();
@@ -343,7 +343,7 @@ public class LoLAParser extends Parser {
             	    */
             	    net.addPlace_unique(name1);
             	  
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:100:3: ( COMMA name2= node_name )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:101:3: ( COMMA name2= node_name )*
             loop4:
             do {
                 int alt4=2;
@@ -356,7 +356,7 @@ public class LoLAParser extends Parser {
 
                 switch (alt4) {
             	case 1 :
-            	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:101:4: COMMA name2= node_name
+            	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:102:4: COMMA name2= node_name
             	    {
             	    match(input,COMMA,FOLLOW_COMMA_in_place_list197); 
             	    pushFollow(FOLLOW_node_name_in_place_list201);
@@ -395,13 +395,13 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "marking_list"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:113:1: marking_list : ( marking ( COMMA marking )* )? SEMICOLON ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:114:1: marking_list : ( marking ( COMMA marking )* )? SEMICOLON ;
     public final void marking_list() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:113:13: ( ( marking ( COMMA marking )* )? SEMICOLON )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:114:3: ( marking ( COMMA marking )* )? SEMICOLON
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:114:13: ( ( marking ( COMMA marking )* )? SEMICOLON )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:115:3: ( marking ( COMMA marking )* )? SEMICOLON
             {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:114:3: ( marking ( COMMA marking )* )?
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:115:3: ( marking ( COMMA marking )* )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -410,14 +410,14 @@ public class LoLAParser extends Parser {
             }
             switch (alt6) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:114:5: marking ( COMMA marking )*
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:115:5: marking ( COMMA marking )*
                     {
                     pushFollow(FOLLOW_marking_in_marking_list226);
                     marking();
 
                     state._fsp--;
 
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:114:13: ( COMMA marking )*
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:115:13: ( COMMA marking )*
                     loop5:
                     do {
                         int alt5=2;
@@ -430,7 +430,7 @@ public class LoLAParser extends Parser {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:114:15: COMMA marking
+                    	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:115:15: COMMA marking
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_marking_list230); 
                     	    pushFollow(FOLLOW_marking_in_marking_list232);
@@ -470,15 +470,15 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "marking"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:117:1: marking : node_name COLON NUMBER ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:118:1: marking : node_name COLON NUMBER ;
     public final void marking() throws RecognitionException {
         Token NUMBER4=null;
         String node_name3 = null;
 
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:117:8: ( node_name COLON NUMBER )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:118:3: node_name COLON NUMBER
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:118:8: ( node_name COLON NUMBER )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:119:3: node_name COLON NUMBER
             {
             pushFollow(FOLLOW_node_name_in_marking251);
             node_name3=node_name();
@@ -506,13 +506,13 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "transitions"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:126:1: transitions : ( transition )* ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:127:1: transitions : ( transition )* ;
     public final void transitions() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:126:12: ( ( transition )* )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:127:3: ( transition )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:127:12: ( ( transition )* )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:128:3: ( transition )*
             {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:127:3: ( transition )*
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:128:3: ( transition )*
             loop7:
             do {
                 int alt7=2;
@@ -525,7 +525,7 @@ public class LoLAParser extends Parser {
 
                 switch (alt7) {
             	case 1 :
-            	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:127:5: transition
+            	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:128:5: transition
             	    {
             	    pushFollow(FOLLOW_transition_in_transitions276);
             	    transition();
@@ -557,14 +557,14 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "transition"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:130:1: transition : KEY_TRANSITION node_name KEY_CONSUME arcs KEY_PRODUCE arcs ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:131:1: transition : KEY_TRANSITION node_name KEY_CONSUME arcs KEY_PRODUCE arcs ;
     public final void transition() throws RecognitionException {
         String node_name5 = null;
 
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:130:11: ( KEY_TRANSITION node_name KEY_CONSUME arcs KEY_PRODUCE arcs )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:131:3: KEY_TRANSITION node_name KEY_CONSUME arcs KEY_PRODUCE arcs
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:131:11: ( KEY_TRANSITION node_name KEY_CONSUME arcs KEY_PRODUCE arcs )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:132:3: KEY_TRANSITION node_name KEY_CONSUME arcs KEY_PRODUCE arcs
             {
             match(input,KEY_TRANSITION,FOLLOW_KEY_TRANSITION_in_transition303); 
             pushFollow(FOLLOW_node_name_in_transition305);
@@ -621,13 +621,13 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "arcs"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:159:1: arcs : ( arc ( COMMA arc )* )? SEMICOLON ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:160:1: arcs : ( arc ( COMMA arc )* )? SEMICOLON ;
     public final void arcs() throws RecognitionException {
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:159:5: ( ( arc ( COMMA arc )* )? SEMICOLON )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:160:2: ( arc ( COMMA arc )* )? SEMICOLON
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:160:5: ( ( arc ( COMMA arc )* )? SEMICOLON )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:161:2: ( arc ( COMMA arc )* )? SEMICOLON
             {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:160:2: ( arc ( COMMA arc )* )?
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:161:2: ( arc ( COMMA arc )* )?
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -636,14 +636,14 @@ public class LoLAParser extends Parser {
             }
             switch (alt9) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:160:4: arc ( COMMA arc )*
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:161:4: arc ( COMMA arc )*
                     {
                     pushFollow(FOLLOW_arc_in_arcs347);
                     arc();
 
                     state._fsp--;
 
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:160:8: ( COMMA arc )*
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:161:8: ( COMMA arc )*
                     loop8:
                     do {
                         int alt8=2;
@@ -656,7 +656,7 @@ public class LoLAParser extends Parser {
 
                         switch (alt8) {
                     	case 1 :
-                    	    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:160:9: COMMA arc
+                    	    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:161:9: COMMA arc
                     	    {
                     	    match(input,COMMA,FOLLOW_COMMA_in_arcs350); 
                     	    pushFollow(FOLLOW_arc_in_arcs352);
@@ -696,21 +696,21 @@ public class LoLAParser extends Parser {
 
 
     // $ANTLR start "arc"
-    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:163:1: arc : node_name ( COLON NUMBER )? ;
+    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:164:1: arc : node_name ( COLON NUMBER )? ;
     public final void arc() throws RecognitionException {
         String node_name6 = null;
 
 
         try {
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:163:4: ( node_name ( COLON NUMBER )? )
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:164:3: node_name ( COLON NUMBER )?
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:164:4: ( node_name ( COLON NUMBER )? )
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:165:3: node_name ( COLON NUMBER )?
             {
             pushFollow(FOLLOW_node_name_in_arc370);
             node_name6=node_name();
 
             state._fsp--;
 
-            // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:164:13: ( COLON NUMBER )?
+            // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:165:13: ( COLON NUMBER )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -719,7 +719,7 @@ public class LoLAParser extends Parser {
             }
             switch (alt10) {
                 case 1 :
-                    // D:\\LinuxShared\\eclipseWorkspace-greta-validate\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:164:14: COLON NUMBER
+                    // D:\\git\\uma\\hub.top.pnapi\\src\\hub\\top\\petrinet\\LoLA.g:165:14: COLON NUMBER
                     {
                     match(input,COLON,FOLLOW_COLON_in_arc373); 
                     match(input,NUMBER,FOLLOW_NUMBER_in_arc375); 
