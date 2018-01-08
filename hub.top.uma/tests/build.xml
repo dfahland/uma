@@ -72,13 +72,17 @@
 		</cobertura-instrument>
 	</target>
 	
-	<target name="check" depends="svn-clean,build-test,prepare-cobertura">
+	<target name="check" depends="svn-clean,build-test">
+	<!-- target name="check" depends="svn-clean,build-test,prepare-cobertura" NO CODE COVERAGE TESTS FOR NOW-->
 		<echo message="Running JUnit tests in ${test.basedir}" />
 	    <junit fork="yes">
 	      <!-- class path for code coverage by cobertura -->
-	      <classpath location="${dir.test-instrument}" />
+		  
+	      <!-- no code-coverage test for now 
+		  <classpath location="${dir.test-instrument}" />
 	      <classpath refid="classpath.cobertura"/>
 	      <jvmarg value="-Dnet.sourceforge.cobertura.datafile=${cobertura.datafile}"/>
+	      -->
 	    	
 	      <!-- class path of the code to test and the Junit framework -->
 	      <classpath refid="classpath.test"/>
@@ -111,12 +115,14 @@
 	    </junit>
 		
 		<!-- Cobertura: generate HTML coverage report -->
+		
+		<!-- no code-coverage test for now
 		<echo message="Creating Cobertura report, using ${test.basedir}/cobertura.ser" />
 		<cobertura-report destdir="${dir.coveragereport.html}" format="html" srcdir="${src.coveragereport}"
 			datafile="${cobertura.datafile}" />
 		<cobertura-report destdir="${dir.coveragereport.xml}" format="xml" srcdir="${src.coveragereport}"
 			datafile="${cobertura.datafile}" />
-
+		-->
 		
 		<echo message="Running binary tests in ${test.basedir}" />
 		<java classname="hub.top.uma.Uma" dir="${home}" fork="true">
