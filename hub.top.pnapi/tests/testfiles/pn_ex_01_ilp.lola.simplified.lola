@@ -1,0 +1,131 @@
+{
+  input file:
+  invocation:
+  net size:     |P|= 30  |P_in|= 0  |P_out|= 0  |T|= 30  |F|= 96
+}
+
+PLACE     p1_P_11, p2_P_21, p3_P_1, p4_P_9, p5_P_19, p6_P_7, p7_P_2, p8_P_5, p9_P_14, p10_P_13, p11_P_15, p12_P_8, p13_P_20, p14_P_17, p15_P_6, p16_P_3, p17_P_18, p18_P4+complete_final, p19_P_16, p20_P_4, p21_P_7, p22_P_10, p23_P_15, p25_P2+pi_abort_final, p26_P4+pi_abort_final, p28_P1+pi_abort_final, p30_P1+withdraw_final, p31_P4+withdraw_final, p32_P3+pi_abort_final, p33_P_12;
+
+MARKING
+   p1_P_11:1;
+
+TRANSITION t34_P1+schedule
+  CONSUME p1_P_11:1;
+  PRODUCE p2_P_21:1;
+
+TRANSITION t35_P1+start
+  CONSUME p2_P_21:1;
+  PRODUCE p3_P_1:1;
+
+TRANSITION t36_P1+complete
+  CONSUME p3_P_1:1;
+  PRODUCE p4_P_9:1, p5_P_19:1;
+
+TRANSITION t37_P2+schedule
+  CONSUME p5_P_19:1;
+  PRODUCE p6_P_7:1;
+
+TRANSITION t38_P2+start
+  CONSUME p6_P_7:1;
+  PRODUCE p7_P_2:1, p8_P_5:1, p9_P_14:1;
+
+TRANSITION t39_P2+suspend
+  CONSUME p7_P_2:1, p8_P_5:1, p9_P_14:1;
+  PRODUCE p10_P_13:1, p11_P_15:1;
+
+TRANSITION t40_P2+resume
+  CONSUME p10_P_13:1, p11_P_15:1;
+  PRODUCE p7_P_2:1, p8_P_5:1, p9_P_14:1;
+
+TRANSITION t41_P3+schedule
+  CONSUME p4_P_9:1;
+  PRODUCE p10_P_13:1;
+
+TRANSITION t42_P3+start
+  CONSUME p10_P_13:1;
+  PRODUCE p12_P_8:1, p13_P_20:1;
+
+TRANSITION t43_P3+complete
+  CONSUME p12_P_8:1, p13_P_20:1;
+  PRODUCE p14_P_17:1;
+
+TRANSITION t44_P2+complete
+  CONSUME p7_P_2:1, p8_P_5:1, p9_P_14:1;
+  PRODUCE p15_P_6:1;
+
+TRANSITION t45_P4+schedule
+  CONSUME p14_P_17:1, p15_P_6:1;
+  PRODUCE p16_P_3:1;
+
+TRANSITION t46_P4+start
+  CONSUME p16_P_3:1;
+  PRODUCE p17_P_18:1;
+
+TRANSITION t47_P4+complete
+  CONSUME p17_P_18:1;
+  PRODUCE p18_P4+complete_final:1;
+
+TRANSITION t48_P1+suspend
+  CONSUME p3_P_1:1;
+  PRODUCE p19_P_16:1;
+
+TRANSITION t49_P1+resume
+  CONSUME p19_P_16:1;
+  PRODUCE p3_P_1:1;
+
+TRANSITION t50_P3+suspend
+  CONSUME p12_P_8:1, p13_P_20:1;
+  PRODUCE p8_P_5:1, p20_P_4:1, p21_P_7:1, p22_P_10:1, p23_P_15:1;
+
+TRANSITION t51_P3+resume
+  CONSUME p8_P_5:1, p20_P_4:1, p21_P_7:1, p22_P_10:1, p23_P_15:1;
+  PRODUCE p12_P_8:1, p13_P_20:1;
+
+TRANSITION t52_P3+ate_abort
+  CONSUME p12_P_8:1, p13_P_20:1;
+  PRODUCE p7_P_2:1, p14_P_17:1;
+
+TRANSITION t53_P2+pi_abort
+  CONSUME p7_P_2:1, p8_P_5:1, p9_P_14:1, p14_P_17:1;
+  PRODUCE p25_P2+pi_abort_final:1;
+
+TRANSITION t54_P4+pi_abort
+  CONSUME p17_P_18:1;
+  PRODUCE p26_P4+pi_abort_final:1;
+
+TRANSITION t55_P2+ate_abort
+  CONSUME p7_P_2:1, p8_P_5:1, p9_P_14:1;
+  PRODUCE p13_P_20:1, p15_P_6:1;
+
+TRANSITION t56_P1+pi_abort
+  CONSUME p3_P_1:1;
+  PRODUCE p28_P1+pi_abort_final:1;
+
+TRANSITION t57_P3+withdraw
+  CONSUME p10_P_13:1;
+  PRODUCE p14_P_17:1;
+
+TRANSITION t58_P1+withdraw
+  CONSUME p2_P_21:1;
+  PRODUCE p30_P1+withdraw_final:1;
+
+TRANSITION t59_P4+withdraw
+  CONSUME p16_P_3:1;
+  PRODUCE p31_P4+withdraw_final:1;
+
+TRANSITION t60_P2+withdraw
+  CONSUME p6_P_7:1;
+  PRODUCE p12_P_8:1, p15_P_6:1, p22_P_10:1;
+
+TRANSITION t61_P3+pi_abort
+  CONSUME p12_P_8:1, p13_P_20:1, p15_P_6:1;
+  PRODUCE p32_P3+pi_abort_final:1;
+
+TRANSITION t62_P4+suspend
+  CONSUME p17_P_18:1;
+  PRODUCE p33_P_12:1;
+
+TRANSITION t63_P4+resume
+  CONSUME p33_P_12:1;
+  PRODUCE p17_P_18:1;
+
