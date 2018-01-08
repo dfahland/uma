@@ -1,0 +1,100 @@
+1x case0 !avail
+1x case1 !avail
+1x case2 !avail ?avail check !none ?none !avail
+1x case3 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail ?avail check !none ?none !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case4 !avail
+1x case5 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case6 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case7 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !none ?none !avail
+1x case8 !avail
+1x case9 !avail
+1x case10 !avail
+1x case11 !avail
+1x case12 !avail ?avail check !location ?location confirm ?confirm !notify ?notify !ack patient_to_hospital ?ack !avail ?avail check !none ?none !avail
+1x case13 !avail
+1x case14 !avail ?avail check !none ?none !avail
+1x case15 !avail ?avail check !none ?none !avail
+1x case16 !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !notify ?notify !avail !ack ?ack
+1x case17 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail ?avail check !location ?location confirm ?confirm patient_to_hospital !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm ?confirm patient_to_hospital
+1x case18 !avail ?avail check !location ?location confirm ?confirm !notify patient_to_hospital ?notify !avail !ack ?ack ?avail check !location ?location confirm ?confirm !notify ?notify !ack patient_to_hospital ?ack !avail ?avail check !location ?location confirm
+1x case19 !avail ?avail check !location ?location confirm ?confirm !notify patient_to_hospital !avail ?notify !ack ?ack ?avail check !none ?none !avail ?avail check !none ?none !avail ?avail check !location ?location confirm ?confirm !notify
+1x case20 !avail ?avail check !none ?none !avail
+1x case21 !avail
+1x case22 !avail ?avail check !location ?location confirm ?confirm !notify patient_to_hospital ?notify !avail !ack ?ack
+1x case23 !avail
+1x case24 !avail ?avail check !location ?location confirm ?confirm !notify ?notify !ack ?ack patient_to_hospital !avail ?avail check !none ?none !avail
+1x case25 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case26 !avail ?avail check !location ?location confirm ?confirm patient_to_hospital !notify ?notify !avail !ack ?ack
+1x case27 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case28 !avail
+1x case29 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case30 !avail ?avail check !location ?location confirm ?confirm !notify ?notify !ack ?ack patient_to_hospital !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !location ?location confirm
+1x case31 !avail
+1x case32 !avail
+1x case33 !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack
+1x case34 !avail
+1x case35 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !location ?location confirm ?confirm patient_to_hospital !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm
+1x case36 !avail ?avail check !location ?location confirm ?confirm !notify patient_to_hospital !avail ?notify !ack ?ack ?avail check !location ?location confirm ?confirm !notify ?notify !ack ?ack patient_to_hospital !avail ?avail check !none ?none !avail
+1x case37 !avail ?avail check !none ?none !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack
+1x case38 !avail ?avail check !none ?none !avail
+1x case39 !avail ?avail check !location ?location confirm ?confirm !notify ?notify !ack patient_to_hospital ?ack !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !none ?none !avail
+1x case40 !avail
+1x case41 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case42 !avail
+1x case43 !avail
+1x case44 !avail ?avail check !location ?location confirm ?confirm patient_to_hospital !avail !notify ?notify !ack ?ack
+1x case45 !avail
+1x case46 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !none ?none !avail
+1x case47 !avail
+1x case48 !avail
+1x case49 !avail ?avail check !none ?none !avail
+1x case50 !avail
+1x case51 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case52 !avail
+1x case53 !avail
+1x case54 !avail ?avail check !none ?none !avail
+1x case55 !avail ?avail check !none ?none !avail ?avail check !location ?location confirm ?confirm !notify patient_to_hospital !avail ?notify !ack ?ack ?avail check !none ?none !avail
+1x case56 !avail
+1x case57 !avail
+1x case58 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case59 !avail
+1x case60 !avail ?avail check !none ?none !avail
+1x case61 !avail ?avail check !location ?location confirm ?confirm !notify patient_to_hospital ?notify !ack !avail ?ack ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case62 !avail
+1x case63 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case64 !avail
+1x case65 !avail ?avail check !location ?location confirm ?confirm !notify ?notify !ack patient_to_hospital ?ack !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case66 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case67 !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack
+1x case68 !avail
+1x case69 !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm ?confirm patient_to_hospital !notify !avail ?notify !ack ?ack ?avail check !none ?none !avail
+1x case70 !avail
+1x case71 !avail ?avail check !none ?none !avail
+1x case72 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack
+1x case73 !avail
+1x case74 !avail ?avail check !none ?none !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case75 !avail ?avail check !location ?location confirm ?confirm patient_to_hospital !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm ?confirm patient_to_hospital !avail !notify ?notify !ack ?ack
+1x case76 !avail ?avail check !none ?none !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case77 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case78 !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm ?confirm patient_to_hospital !avail !notify ?notify !ack ?ack ?avail check !location ?location confirm
+1x case79 !avail
+1x case80 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case81 !avail ?avail check !location ?location confirm ?confirm !notify ?notify !ack ?ack patient_to_hospital !avail ?avail check !none ?none !avail
+1x case82 !avail ?avail check !none ?none !avail
+1x case83 !avail ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case84 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case85 !avail
+1x case86 !avail ?avail check !none ?none !avail
+1x case87 !avail
+1x case88 !avail ?avail check !none ?none !avail ?avail check !location ?location confirm patient_to_hospital ?confirm !notify ?notify !ack ?ack !avail ?avail check !none ?none !avail ?avail check !none ?none !avail
+1x case89 !avail
+1x case90 !avail
+1x case91 !avail
+1x case92 !avail ?avail check !location ?location confirm patient_to_hospital !avail ?confirm !notify ?notify !ack ?ack
+1x case93 !avail ?avail check !none ?none !avail
+1x case94 !avail ?avail check !location ?location confirm ?confirm !notify patient_to_hospital ?notify !avail !ack ?ack
+1x case95 !avail
+1x case96 !avail
+1x case97 !avail
+1x case98 !avail
+1x case99 !avail ?avail check !location ?location confirm ?confirm patient_to_hospital !notify !avail ?notify !ack ?ack ?avail check !none ?none !avail

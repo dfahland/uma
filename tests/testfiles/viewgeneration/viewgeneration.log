@@ -1,0 +1,1681 @@
+ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+  @ ['medic_ready_' (1)[70], ] ???
+trying 'medic_ready_' (1)[62] --> 'medic_ready_' (1)[70]
+'!avail' (10)[63] is enabled at ['medic_ready_' (1)[70], ]
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+1.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+  @ ['EMS_ready_' (0)[71], 'avail' (4)[73], ] ???
+trying 'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[71]
+'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[71]
+trying 'avail' (4)[65] --> 'avail' (4)[73]
+'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[71]
+trying '!avail' (10)[63] --> '!avail' (10)[72]
+'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[71]
+trying 'medic_ready_' (1)[62] --> 'medic_ready_' (1)[70]
+'?avail' (6)[66] is enabled at ['EMS_ready_' (0)[71], 'avail' (4)[73], ]
+2.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+  @ ['EMS' (3)[76], ] ???
+trying 'EMS' (3)[3] --> 'EMS' (3)[76]
+trying '?avail' (6)[2] --> '?avail' (6)[75]
+trying 'avail' (4)[1] --> 'avail' (4)[73]
+trying '!avail' (10)[0] --> '!avail' (10)[72]
+'check' (7)[4] is enabled at ['EMS' (3)[76], ]
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+  @ ['EMS' (3)[76], ] ???
+trying 'EMS' (3)[15] --> 'EMS' (3)[76]
+trying '?avail' (6)[14] --> '?avail' (6)[75]
+trying 'avail' (4)[13] --> 'avail' (4)[73]
+trying '!avail' (10)[12] --> '!avail' (10)[72]
+'check' (7)[16] is enabled at ['EMS' (3)[76], ]
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+3.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+  @ ['EMS' (3)[78], ] ???
+trying 'EMS' (3)[5] --> 'EMS' (3)[78]
+trying 'check' (7)[4] --> 'check' (7)[77]
+trying 'EMS' (3)[3] --> 'EMS' (3)[76]
+trying '?avail' (6)[2] --> '?avail' (6)[75]
+trying 'avail' (4)[1] --> 'avail' (4)[73]
+trying '!avail' (10)[0] --> '!avail' (10)[72]
+'!location' (11)[6] is enabled at ['EMS' (3)[78], ]
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+  @ ['EMS' (3)[78], ] ???
+trying 'EMS' (3)[17] --> 'EMS' (3)[78]
+trying 'check' (7)[16] --> 'check' (7)[77]
+trying 'EMS' (3)[15] --> 'EMS' (3)[76]
+trying '?avail' (6)[14] --> '?avail' (6)[75]
+trying 'avail' (4)[13] --> 'avail' (4)[73]
+trying '!avail' (10)[12] --> '!avail' (10)[72]
+'!none' (12)[18] is enabled at ['EMS' (3)[78], ]
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+5.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+  @ ['medic' (5)[74], 'location' (8)[81], ] ???
+trying 'medic' (5)[7] --> 'medic' (5)[74]
+trying '!avail' (10)[0] --> '!avail' (10)[72]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying 'location' (8)[8] --> 'location' (8)[81]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying '!location' (11)[6] --> '!location' (11)[79]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying 'EMS' (3)[5] --> 'EMS' (3)[78]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying 'check' (7)[4] --> 'check' (7)[77]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying 'EMS' (3)[3] --> 'EMS' (3)[76]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying '?avail' (6)[2] --> '?avail' (6)[75]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying 'avail' (4)[1] --> 'avail' (4)[73]
+'!avail' (10)[0] --> '!avail' (10)[72]
+'medic' (5)[7] --> 'medic' (5)[74]
+trying '!avail' (10)[0] --> '!avail' (10)[72]
+'?location' (9)[9] is enabled at ['medic' (5)[74], 'location' (8)[81], ]
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+  @ ['medic' (5)[74], 'none' (14)[84], ] ???
+trying 'medic' (5)[20] --> 'medic' (5)[74]
+trying '!avail' (10)[12] --> '!avail' (10)[72]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying 'none' (14)[19] --> 'none' (14)[84]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying '!none' (12)[18] --> '!none' (12)[82]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying 'EMS' (3)[17] --> 'EMS' (3)[78]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying 'check' (7)[16] --> 'check' (7)[77]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying 'EMS' (3)[15] --> 'EMS' (3)[76]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying '?avail' (6)[14] --> '?avail' (6)[75]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying 'avail' (4)[13] --> 'avail' (4)[73]
+'medic' (5)[20] --> 'medic' (5)[74]
+'!avail' (10)[12] --> '!avail' (10)[72]
+trying '!avail' (10)[12] --> '!avail' (10)[72]
+'?none' (13)[21] is enabled at ['medic' (5)[74], 'none' (14)[84], ]
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+7.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+  @ ['medic' (5)[86], ] ???
+trying 'medic' (5)[29] --> 'medic' (5)[86]
+trying '?location' (9)[28] --> '?location' (9)[85]
+trying 'medic' (5)[27] --> 'medic' (5)[74]
+'medic' (5)[27] --> 'medic' (5)[74]
+trying 'location' (8)[26] --> 'location' (8)[81]
+'medic' (5)[27] --> 'medic' (5)[74]
+trying '!location' (11)[25] --> '!location' (11)[79]
+'medic' (5)[27] --> 'medic' (5)[74]
+trying 'EMS' (3)[24] --> 'EMS' (3)[78]
+'confirm' (15)[30] is enabled at ['medic' (5)[86], ]
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+8.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+  @ ['EMS' (3)[80], 'confirm' (15)[91], ] ???
+trying 'EMS' (3)[31] --> 'EMS' (3)[80]
+trying '!location' (11)[25] --> '!location' (11)[79]
+trying 'EMS' (3)[24] --> 'EMS' (3)[78]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying 'confirm' (15)[32] --> 'confirm' (15)[91]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying 'confirm' (15)[30] --> 'confirm' (15)[89]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying 'medic' (5)[29] --> 'medic' (5)[86]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying '?location' (9)[28] --> '?location' (9)[85]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying 'medic' (5)[27] --> 'medic' (5)[74]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'medic' (5)[27] --> 'medic' (5)[74]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying 'location' (8)[26] --> 'location' (8)[81]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'medic' (5)[27] --> 'medic' (5)[74]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying '!location' (11)[25] --> '!location' (11)[79]
+'EMS' (3)[24] --> 'EMS' (3)[78]
+'medic' (5)[27] --> 'medic' (5)[74]
+'EMS' (3)[31] --> 'EMS' (3)[80]
+'!location' (11)[25] --> '!location' (11)[79]
+trying 'EMS' (3)[24] --> 'EMS' (3)[78]
+'?confirm' (16)[35] is enabled at ['EMS' (3)[80], 'confirm' (15)[91], ]
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+  @ ['hospital' (2)[69], 'medic' (5)[90], ] ???
+trying 'hospital' (2)[34] --> 'hospital' (2)[69]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying 'medic' (5)[33] --> 'medic' (5)[90]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying 'confirm' (15)[30] --> 'confirm' (15)[89]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying 'medic' (5)[29] --> 'medic' (5)[86]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying '?location' (9)[28] --> '?location' (9)[85]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying 'medic' (5)[27] --> 'medic' (5)[74]
+'medic' (5)[27] --> 'medic' (5)[74]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying 'location' (8)[26] --> 'location' (8)[81]
+'medic' (5)[27] --> 'medic' (5)[74]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying '!location' (11)[25] --> '!location' (11)[79]
+'medic' (5)[27] --> 'medic' (5)[74]
+'hospital' (2)[34] --> 'hospital' (2)[69]
+trying 'EMS' (3)[24] --> 'EMS' (3)[78]
+'patient_to_hospital' (17)[36] is enabled at ['hospital' (2)[69], 'medic' (5)[90], ]
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+10.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+  @ ['EMS' (3)[93], ] ???
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+trying '!location' (11)[41] --> '!location' (11)[79]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'!notify' (20)[51] is enabled at ['EMS' (3)[93], ]
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+  @ ['medic_ready_' (1)[95], ] ???
+trying 'medic_ready_' (1)[62] --> 'medic_ready_' (1)[95]
+'!avail' (10)[63] is enabled at ['medic_ready_' (1)[95], ]
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+12.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+  @ ['hospital' (2)[69], 'notify' (24)[99], ] ???
+trying 'hospital' (2)[52] --> 'hospital' (2)[69]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'notify' (24)[53] --> 'notify' (24)[99]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'?notify' (22)[54] is enabled at ['hospital' (2)[69], 'notify' (24)[99], ]
+  @ ['hospital' (2)[96], 'notify' (24)[99], ] ???
+trying 'hospital' (2)[52] --> 'hospital' (2)[96]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'notify' (24)[53] --> 'notify' (24)[99]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'?notify' (22)[54] is enabled at ['hospital' (2)[96], 'notify' (24)[99], ]
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+14.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+  @ ['hospital_notified_' (21)[104], ] ???
+trying 'hospital_notified_' (21)[55] --> 'hospital_notified_' (21)[104]
+trying '?notify' (22)[54] --> '?notify' (22)[103]
+trying 'hospital' (2)[52] --> 'hospital' (2)[69]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'notify' (24)[53] --> 'notify' (24)[99]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'!ack' (18)[56] is enabled at ['hospital_notified_' (21)[104], ]
+  @ ['hospital_notified_' (21)[106], ] ???
+trying 'hospital_notified_' (21)[55] --> 'hospital_notified_' (21)[106]
+trying '?notify' (22)[54] --> '?notify' (22)[105]
+trying 'hospital' (2)[52] --> 'hospital' (2)[96]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'notify' (24)[53] --> 'notify' (24)[99]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'!ack' (18)[56] is enabled at ['hospital_notified_' (21)[106], ]
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+16.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+  @ ['hospital' (2)[108], 'medic' (5)[90], ] ???
+trying 'hospital' (2)[34] --> 'hospital' (2)[108]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying 'medic' (5)[33] --> 'medic' (5)[90]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying 'confirm' (15)[30] --> 'confirm' (15)[89]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying 'medic' (5)[29] --> 'medic' (5)[86]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying '?location' (9)[28] --> '?location' (9)[85]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying 'medic' (5)[27] --> 'medic' (5)[74]
+'medic' (5)[27] --> 'medic' (5)[74]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying 'location' (8)[26] --> 'location' (8)[81]
+'medic' (5)[27] --> 'medic' (5)[74]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying '!location' (11)[25] --> '!location' (11)[79]
+'medic' (5)[27] --> 'medic' (5)[74]
+'hospital' (2)[34] --> 'hospital' (2)[108]
+trying 'EMS' (3)[24] --> 'EMS' (3)[78]
+'patient_to_hospital' (17)[36] is enabled at ['hospital' (2)[108], 'medic' (5)[90], ]
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+  @ ['EMS' (3)[98], 'ack' (19)[109], ] ???
+trying 'EMS' (3)[57] --> 'EMS' (3)[98]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+trying '!location' (11)[41] --> '!location' (11)[79]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'ack' (19)[58] --> 'ack' (19)[109]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!ack' (18)[56] --> '!ack' (18)[107]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'hospital_notified_' (21)[55] --> 'hospital_notified_' (21)[104]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '?notify' (22)[54] --> '?notify' (22)[103]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'hospital' (2)[52] --> 'hospital' (2)[69]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'notify' (24)[53] --> 'notify' (24)[99]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[69]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'?ack' (23)[59] is enabled at ['EMS' (3)[98], 'ack' (19)[109], ]
+  @ ['EMS' (3)[98], 'ack' (19)[112], ] ???
+trying 'EMS' (3)[57] --> 'EMS' (3)[98]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+trying '!location' (11)[41] --> '!location' (11)[79]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'ack' (19)[58] --> 'ack' (19)[112]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!ack' (18)[56] --> '!ack' (18)[110]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'hospital_notified_' (21)[55] --> 'hospital_notified_' (21)[106]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '?notify' (22)[54] --> '?notify' (22)[105]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'hospital' (2)[52] --> 'hospital' (2)[96]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'notify' (24)[53] --> 'notify' (24)[99]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!notify' (20)[51] --> '!notify' (20)[97]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[50] --> 'EMS' (3)[93]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '?confirm' (16)[49] --> '?confirm' (16)[92]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'confirm' (15)[47] --> 'confirm' (15)[91]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'confirm' (15)[46] --> 'confirm' (15)[89]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'medic' (5)[45] --> 'medic' (5)[86]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '?location' (9)[44] --> '?location' (9)[85]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'medic' (5)[43] --> 'medic' (5)[74]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'location' (8)[42] --> 'location' (8)[81]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying '!location' (11)[41] --> '!location' (11)[79]
+'confirm' (15)[46] --> 'confirm' (15)[89]
+'!notify' (20)[51] --> '!notify' (20)[97]
+'hospital' (2)[52] --> 'hospital' (2)[96]
+'!location' (11)[41] --> '!location' (11)[79]
+'medic' (5)[43] --> 'medic' (5)[74]
+'location' (8)[42] --> 'location' (8)[81]
+'?location' (9)[44] --> '?location' (9)[85]
+'EMS' (3)[48] --> 'EMS' (3)[80]
+'confirm' (15)[47] --> 'confirm' (15)[91]
+'EMS' (3)[50] --> 'EMS' (3)[93]
+'medic' (5)[45] --> 'medic' (5)[86]
+'EMS' (3)[57] --> 'EMS' (3)[98]
+'?confirm' (16)[49] --> '?confirm' (16)[92]
+'EMS' (3)[40] --> 'EMS' (3)[78]
+trying 'EMS' (3)[40] --> 'EMS' (3)[78]
+'?ack' (23)[59] is enabled at ['EMS' (3)[98], 'ack' (19)[112], ]
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+19.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+  @ ['medic_ready_' (1)[114], ] ???
+trying 'medic_ready_' (1)[62] --> 'medic_ready_' (1)[114]
+'!avail' (10)[63] is enabled at ['medic_ready_' (1)[114], ]
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+20.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+  @ ['EMS_ready_' (0)[117], 'avail' (4)[121], ] ???
+trying 'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[117]
+'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[117]
+trying 'avail' (4)[65] --> 'avail' (4)[121]
+'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[117]
+trying '!avail' (10)[63] --> '!avail' (10)[120]
+'EMS_ready_' (0)[64] --> 'EMS_ready_' (0)[117]
+trying 'medic_ready_' (1)[62] --> 'medic_ready_' (1)[114]
+'?avail' (6)[66] is enabled at ['EMS_ready_' (0)[117], 'avail' (4)[121], ]
+21.. ENABLED 'check' (7)[4] ['EMS' (3)[3], ]:
+checking enabling locations...
+ENABLED '!location' (11)[6] ['EMS' (3)[5], ]:
+checking enabling locations...
+ENABLED '?location' (9)[9] ['medic' (5)[7], 'location' (8)[8], ]:
+checking enabling locations...
+ENABLED 'check' (7)[16] ['EMS' (3)[15], ]:
+checking enabling locations...
+ENABLED '!none' (12)[18] ['EMS' (3)[17], ]:
+checking enabling locations...
+ENABLED '?none' (13)[21] ['medic' (5)[20], 'none' (14)[19], ]:
+checking enabling locations...
+ENABLED 'confirm' (15)[30] ['medic' (5)[29], ]:
+checking enabling locations...
+ENABLED '?confirm' (16)[35] ['EMS' (3)[31], 'confirm' (15)[32], ]:
+checking enabling locations...
+ENABLED 'patient_to_hospital' (17)[36] ['hospital' (2)[34], 'medic' (5)[33], ]:
+checking enabling locations...
+ENABLED '!notify' (20)[51] ['EMS' (3)[50], ]:
+checking enabling locations...
+ENABLED '?notify' (22)[54] ['hospital' (2)[52], 'notify' (24)[53], ]:
+checking enabling locations...
+ENABLED '!ack' (18)[56] ['hospital_notified_' (21)[55], ]:
+checking enabling locations...
+ENABLED '?ack' (23)[59] ['EMS' (3)[57], 'ack' (19)[58], ]:
+checking enabling locations...
+ENABLED '!avail' (10)[63] ['medic_ready_' (1)[62], ]:
+checking enabling locations...
+ENABLED '?avail' (6)[66] ['EMS_ready_' (0)[64], 'avail' (4)[65], ]:
+checking enabling locations...
+
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, ?notify, !ack, patient_to_hospital, ?ack, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, ?confirm, !notify, ?notify, !avail, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, patient_to_hospital, ?notify, !avail, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, ?notify, !ack, ?ack, patient_to_hospital, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, patient_to_hospital, !notify, ?notify, !avail, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, ?confirm, !avail, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, ?confirm, !avail, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, patient_to_hospital, !avail, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, patient_to_hospital, !avail, ?notify, !ack, ?ack, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, patient_to_hospital, ?notify, !ack, !avail, ?ack, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, ?notify, !ack, patient_to_hospital, ?ack, !avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, ?confirm, !avail, !notify, ?notify, !ack, ?ack, ?avail, check, !location, ?location, confirm, patient_to_hospital, ?confirm, !avail, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, ?confirm, !avail, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, patient_to_hospital, !avail, !notify, ?notify, !ack, ?ack, ?avail, check, !location, ?location, confirm, ?confirm, patient_to_hospital, !avail, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, ?notify, !ack, ?ack, patient_to_hospital, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, ?confirm, !notify, ?notify, !ack, ?ack, !avail, ?avail, check, !none, ?none, !avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, patient_to_hospital, !avail, ?confirm, !notify, ?notify, !ack, ?ack]
+no more enabled events at [!avail, ?avail, check, !none, ?none, !avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, !notify, patient_to_hospital, ?notify, !avail, !ack, ?ack]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail]
+no more enabled events at [!avail, ?avail, check, !location, ?location, confirm, ?confirm, patient_to_hospital, !notify, !avail, ?notify, !ack, ?ack, ?avail, check, !none, ?none, !avail]

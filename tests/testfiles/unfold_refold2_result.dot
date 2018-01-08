@@ -1,0 +1,76 @@
+digraph BP {
+graph [fontname="Helvetica" nodesep=0.3 ranksep="0.2 equally" fontsize=10];
+node [fontname="Helvetica" fontsize=8 fixedsize width=".3" height=".3" label="" style=filled fillcolor=white];
+edge [fontname="Helvetica" fontsize=8 color=white arrowhead=none weight="20.0"];
+
+
+node [shape=circle];
+  p1 [fillcolor=black peripheries=2 height=".2" width=".2" ]
+  p1_l [shape=none];
+  p1_l -> p1 [headlabel="a "]
+  p2 []
+  p2_l [shape=none];
+  p2_l -> p2 [headlabel="h "]
+  p3 []
+  p3_l [shape=none];
+  p3_l -> p3 [headlabel="b "]
+  p4 []
+  p4_l [shape=none];
+  p4_l -> p4 [headlabel="c "]
+  p5 []
+  p5_l [shape=none];
+  p5_l -> p5 [headlabel="d "]
+  p6 []
+  p6_l [shape=none];
+  p6_l -> p6 [headlabel="e "]
+  p7 []
+  p7_l [shape=none];
+  p7_l -> p7 [headlabel="f "]
+  p8 []
+  p8_l [shape=none];
+  p8_l -> p8 [headlabel="g "]
+
+
+node [shape=box];
+  t9 []
+  t9_l [shape=none];
+  t9_l -> t9 [headlabel="I "]
+  t10 []
+  t10_l [shape=none];
+  t10_l -> t10 [headlabel="A "]
+  t11 []
+  t11_l [shape=none];
+  t11_l -> t11 [headlabel="B "]
+  t12 []
+  t12_l [shape=none];
+  t12_l -> t12 [headlabel="C "]
+  t13 []
+  t13_l [shape=none];
+  t13_l -> t13 [headlabel="D "]
+  t14 []
+  t14_l [shape=none];
+  t14_l -> t14 [headlabel="E "]
+  t15 []
+  t15_l [shape=none];
+  t15_l -> t15 [headlabel="F "]
+
+
+ edge [fontname="Helvetica" fontsize=8 arrowhead=normal color=black];
+  t11 -> p5 [weight=10000.0 ]
+  p5 -> t14 [weight=10000.0 ]
+  t14 -> p6 [weight=10000.0 ]
+  t10 -> p3 [weight=10000.0 ]
+  p1 -> t9 [weight=10000.0 ]
+  p6 -> t15 [weight=10000.0 ]
+  p2 -> t10 [weight=10000.0 ]
+  p2 -> t11 [weight=10000.0 ]
+  p3 -> t12 [weight=10000.0 ]
+  p7 -> t15 [weight=10000.0 ]
+  t12 -> p6 [weight=10000.0 ]
+  t10 -> p4 [weight=10000.0 ]
+  p4 -> t13 [weight=10000.0 ]
+  t15 -> p8 [weight=10000.0 ]
+  t9 -> p2 [weight=10000.0 ]
+  t11 -> p4 [weight=10000.0 ]
+  t13 -> p7 [weight=10000.0 ]
+}
